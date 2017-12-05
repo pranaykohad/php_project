@@ -1,0 +1,34 @@
+.body1{background-color:#ffd200; padding:5px; border-radius: 20px;}
+
+.section1{background: linear-gradient(#ff8f00, #ffffff, #23d64e); display:table-cell; padding:1px; border-radius: 20px;}
+
+.for_main_name{font-family:Space Age ; font-size:30px; color:#ff0000; margin-bottom:0px; background-origin:content-box;}
+
+.s1{background: linear-gradient(#ff8f00, #ffffff, #23d64e); display:table-cell; padding:1px; height:30px; font-size:50px; border-radius: 20px;}
+
+.for_name{padding:0px ; font-size:50px; height:45px; margin-top:0px;}
+
+.for_inline{display:inline; background-color:#ff5c00; font-size:20px; padding:7px; margin:2px; width:500px; border-radius: 20px;}
+
+.for_smae_gap{padding:10px; font-family:AngryBirds; font-size:25px; text-align:center; display:table-cell; color:#b71313;}
+
+.image1_logo{padding:10px; border-radius: 20px; border:2px solid red; width:20%; height:10%;}
+
+.image2_logo{padding:10px; border-radius: 20px; border:2px solid red;}
+
+.p1{background: linear-gradient(#009fff, #00ff6b); width:1200px; height:750px; padding:0px; border-radius: 20px;}
+
+.table1{margin:20px}
+
+.redfont{color:#ff0000;}
+
+.hotel1{font-family:Capture it; color:#99450f; font-size:60px; background-color:#007fff; border-radius: 20px; height:70px}
+
+.slide_img{width:900px; height:300px; border:2px solid red; border-radius:7px; background: linear-gradient(#ff1f00,#ff8f00); margin:5px; display: none;}
+
+.smalldesgin{width:200px; height:400px; border-radius: 20px; background-color:red; display:block; font-size:17px; vertical-align:middle; text-align:center; display:table-cell; background: linear-gradient(#ff263e,#ff8200); font-family:Coalition; color:#ff0000;}
+
+.addv{width:250px; height:250px; border-radius:20px; padding:10px; display:table;}
+
+.addv_name{border-radius: 20px; background-color:#00b2ff; font-size:25px}
+

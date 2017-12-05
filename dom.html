@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		
+		<title>air india</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+		
+		<link rel="stylesheet" href="home.css">
+		<link rel="stylesheet" href="tab.css">
+		<link rel="stylesheet" href="book1.css">
+		<link rel="stylesheet" href="bootstrap.min.css">
+	</head>
+	
+	<script src="slide.js"></script>
+	<script src="logo.js"></script>
+	<script src="form1.js"></script>
+	<script src="link1.js"></script>
+	<script src="underline1.jd"></script>
+	
+<body><main class="body1">
+		<section class="section1" style="height:390px">
+		<div class="for_main_name">
+			<img src="air-india-carriers-logo-maharaja.jpg" class="image1_logo" id="logo1">
+			
+			<img src="1024px-Air_India_Logo.jpg" width="50%" height="50%" class="image2_logo" id="logo2">
+			
+			<img src="uniform-4.jpg" width="20%" height="40%" class="image2_logo" id="logo3">
+		<div class="for_name" id="air_name" style="padding:0px ; font-size:100px; height:45px; margin-top:0px;"><center><h1>air india</h1></center></div><br>
+		
+		<marquee><u>welcome to air india</u></marquee>
+		
+		</div>
+		</section>	
+		<center><nav class="for_inline">
+			<a href="home.html" target="_blank" class="for_smae_gap" id="l1">Home</a>
+			<a href="dom_or_inter.html" target="_blank" class="for_smae_gap" id="l2">Manage Your Trip</a>
+			<a href="special_Offers.html" target="_blank" class="for_smae_gap" id="l3">Special Offers</a>
+			<a href="travel_information.html" target="_blank" class="for_smae_gap" id="l4">Travel Information</a>
+			<a href="flying_returns.html" target="_blank" class="for_smae_gap" id="l5">Flying Returns</a>
+			<a href="aggage.html" target="_blank" class="for_smae_gap" id="l6">Baggage</a>
+			<a href="contact.html" target="_blank" class="for_smae_gap" id="l7">Contact</a>
+		</nav></center>
+		
+		<center>	
+		<div class="tab2">
+		<table cellpadding="5px" cellspacing="15px" align="center">	
+		<form method="post" action="dom.php">
+				<center>
+				<tr><td style="color:#238642"><h2><center>book a ticket</center></h2></td></tr>
+				
+				<tr><td>
+				<input type="button" value="one way" id="r11">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		
+				<input type="button" value="return" id="r12">
+				</td></tr>
+				
+				<tr><td><br>
+				<input type="radio" name="r1" value="one way" id="r11">one way
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		
+				<input type="radio" name="r1" value="return">return
+				</td></tr><br>
+				
+				<tr><td><br>
+				from: <input type="text" name="from" class="form-control" size="30" placeholder="from" bgcolor="#ffbd2f">
+				</td></tr>
+				
+				<tr><td><br>
+				to: <input type="text" name="to" class="form-control" size="30" placeholder="to"><br>
+				</td></tr>
+				
+				<tr><td>
+				going on: <input name="date_go" class="form-control" type="date" size="20"><br>
+				</td></tr>
+				
+				<div ><tr><td id="res">
+				returning on: <input  name="date_come"  id="ttt" class="form-control" type="date" size="20"><br>
+				</td></tr>
+				</div>
+				
+				<tr><td>
+				adults:
+					<input class="form-control" list="adults" size="5" name="adult_count">
+					<datalist id="adults">
+					<option value="0" checked>
+					<option value="1">
+					<option value="2">
+					<option value="3">
+					<option value="4">
+					<option value="5">
+					<option value="10">
+					<option value="15">
+					<option value="20">
+					<option value="25">
+					</datalist>
+				</td>
+				</tr>
+				
+				<tr><td><br>	
+				children:
+					<input class="form-control" list="children" size="5" name="children_count"><br>
+					<datalist id="children">
+					<option value="0" checked>
+					<option value="1">
+					<option value="2">
+					<option value="3">
+					<option value="4">
+					<option value="5">
+					<option value="10">
+					<option value="15">
+					<option value="20">
+					<option value="25">
+					</datalist>
+				</td></tr>
+				
+				<tr><td>
+				class:
+					<input name="seating_class" class="form-control" list="class" size="30" placeholder="economy"><br><br>
+					<datalist id="class">
+					<option value="Economy">
+					<option value="Exclusive">
+					<option value="First class">
+					<option value="premium class">
+					</datalist>
+				</td></tr>
+				
+				<tr><td>
+					<button type="reset" class="btn btn-primary">Reset</button>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="submit" class="btn btn-primary" name="sub"><a href="dom_ticket.html" target="_blank"><font color="white">Book Now</font></a></button>
+				</td>
+				</tr>
+				
+				</center>
+		</form>
+		</table>
+		</div>
+		</center>
+		
+		
+		<center><div class="p1">
+			<h1 class="hotel1" id="ht">hotel patners</h1>
+			<table>
+				<tr>
+				<td><a href="http://www.agoda.com/" target="_blank"><img src="i1.jpg" class="addv" id="add1"></a></td>
+				<td><a href="http://www.booking.com/" target="_blank"><img src="i2.jpg" class="addv" id="add2"></a></td>
+				<td><a href="http://www.goibibo.com/" target="_blank"><img src="i3.jpg" class="addv" id="add3"></a></td>
+				</tr>
+
+				<tr>
+					<td class="addv_name" align="center" >www.agoda.com</td>
+					<td class="addv_name" align="center">www.booking.com</td>
+					<td class="addv_name" align="center">www.goibibo.com</td>
+				</tr>
+		
+				<tr>
+					<td><a href="http://www.trivago.in/" target="_blank"><img src="i4.jpg" class="addv" id="add4"></a></td>
+					<td><a href="http://www.expedio.com.au/" target="_blank"><img src="i5.jpg" class="addv" id="add5"></a></td>
+					<td><a href="http://www.yatra.com/" target="_blank"><img src="i6.jpg" class="addv" id="add6"></a></td>
+				</tr>
+				
+				<tr>
+					<td class="addv_name" align="center" >www.trivago.com</td>
+					<td class="addv_name" align="center">www.expedio.com</td>
+					<td class="addv_name" align="center">www.yatra.com</td>
+				</tr>
+			</table>
+		</div></center>
+		
+		
+		
+</body></main>
+</html>
